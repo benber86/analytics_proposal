@@ -48,6 +48,9 @@ We recently released a governance vote page on llama.airforce as a first steppin
 
 
 
+## 4. Interface with Curve team, DAO, integrating protocols and users
 
+- Work with contributors contracted to do punctual specific tasks. For instance to turn a research report into a continuously updated dashboard, reproduce dashboards from third-party platforms (Dune, Flipside...)
+- Work with the Curve core team and research team to provide them with the data stream they require.
 
 
