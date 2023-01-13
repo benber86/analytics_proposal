@@ -15,6 +15,8 @@ We propose to develop a dedicated, real-time analytics platform for Curve that p
 
 ### Paragraph summary
 
+We propose to develop a dedicated, real-time analytics platform that provides both high-level and detailed metrics for the Curve ecosystem. This platform will increase discoverability by serving as a comprehensive source for all relevant information and data on Curve's pools. Additionally, we propose to build an alternative, user-friendly DAO front-end that includes pool health metrics. Our team will collaborate closely with the Curve core team and other teams within the DAO. We aim to create an open-source codebase that is easy for external developers to integrate with and contribute to.
+
 ## Proposers
 
 ### Team overview
@@ -24,13 +26,11 @@ We propose to develop a dedicated, real-time analytics platform for Curve that p
 
 ### Team roles and responsibilities
 
-**Alunara**: Front-end development, DevOps
+- **Alunara**: Front-end development, DevOps
+- **Benny**: Back-end development, Subgraph development & maintenance, Management and liaison with other teams within the DAO and integrating protocols
+- **Philipp**: Back-end development, DevOps
 
-**Benny**: Back-end development, Subgraph development & maintenance, Management and liaison with other teams within the DAO and integrating protocols
-
-**Philipp**: Back-end development, DevOps
-
-## Objectives
+## Specifications and proposal details
 
 ### 1. Dedicated analytics platform
 
@@ -74,7 +74,7 @@ We recently released a governance vote page on llama.airforce as a first steppin
 
 ### 4. Interface with Curve team, DAO, integrating protocols and users
 
-The Curve core team and other teams within the DAO regularly gather data and produce analytics to inform decision-making processes. In certain instances, third-party companies or community members may be contracted or volunteer to generate specific reports and research. However, a significant proportion of these outputs are disseminated on disparate self-hosted domains, forgotten in git repositories, and/or left unmaintained. To address this issue, we propose to expand our responsibilities to include working directly with external contributors on specific tasks. This will ensure that their output, if deemed significant enough, can be integrated into a continuously updated and maintained dashboards on our analytics platform. By adopting this approach, we will also ensure continuity in the analytics knowledge base for Curve, enabling us to provide guidance to protocols and users seeking Curve-related metrics. Additionally, we will be able to explain the calculation methodology, sources, and origins of the data used in these metrics. 
+The Curve core team and other teams within the DAO regularly gather data and produce analytics to inform decision-making processes. In certain instances, third-party companies or community members may be contracted or volunteer to generate specific reports and research. However, a significant proportion of these outputs are disseminated on disparate self-hosted domains or third-praty platforms (Dune, Flipside...), forgotten in git repositories, and/or left unmaintained. To address this issue, we propose to expand our responsibilities to include working directly with external contributors to ensure that their output, if deemed significant enough, can be integrated into a continuously updated and maintained dashboards on our analytics platform. By adopting this approach, we will also ensure continuity in the analytics knowledge base for Curve, enabling us to provide guidance to protocols and users seeking Curve-related metrics. Additionally, we will be able to explain the calculation methodology and origins of the data used in these metrics. 
 
 - Making a web UI for users to run in-browser pool simulations using the research team's CurveSim package
 - Work with the Curve core team and research team to provide them with the data streams and metrics they need. For instance:
