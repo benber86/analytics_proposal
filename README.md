@@ -31,15 +31,15 @@ Our current roadmap for improvements is as follows:
 
 ## 2. Alternative DAO front-end
 
-The new Curve website currently lacks a dedicated DAO page and the classic website's DAO page is hampered by extremely slow loading times, confusing navigation and a lack of essential features, such as the option to post new proposals or the decoding of calldata for governance proposals. To increase voter engagement and the dynamism of the DAO's governance, we offer to build an alternative DAO front end that would be faster and more user-friendly than the current one. The front-end will offer additional metrics to help users make more informed decisions. We also aim to integrate with veCRV derivatives such as vlCVX to offer all voters in the ecosystem a unified and intuitive voting experience.
+The new Curve website currently lacks a dedicated DAO page and the classic website's DAO page is hampered by extremely slow loading times, confusing navigation and a lack of essential features, such as the option to post new proposals or the decoding of calldata for governance proposals. To increase voter engagement and the dynamism of the DAO's governance, we offer to build an alternative DAO front end that would be faster and more user-friendly than the current one. We see this task as synergetic with the development of pool dashboards, as the DAO front-end should offer appropriate pool health metrics to help users make more informed decisions and pool parameter changes are subject to the DAO's approval. We also aim to integrate voting options on the UI for veCRV derivatives such as vlCVX to offer all voters in the ecosystem a unified and intuitive experience.
 
-We recently released a governance vote page on llama.airforce as a first stepping stone to this project. The list of future developments is as follows:
+We recently released a governance vote page on llama.airforce as a first stepping stone to this project. The list of future planned developments is as follows:
 
-- Add the option to vote directly using veCRV, vlCVX or other veCRV derivatives with governance rights on the governance vote page.
+- Add the option to vote directly using veCRV, vlCVX or other veCRV derivatives with governance rights on the governance vote page
 - Create a page for gauge weight votes
 - Add new metrics when displaying gauge candidates to guide voter's decisions: TVL and volume changes, incentives posted and fees collected over the past 2 rounds.
-- Develop a UI for vote creation, including templates for the most common actions: parameter changes, gauge addition and gauge removal. 
-- (Subject to further discussion and approval from Curve team): Create a marketplace contract and UI where users with no veCRV can post a proposal and a small bounty. Users with 2.5k veCRV can then post the proposal on their behalf and claim the bounty for gas reimbursement. 
+- Develop a UI for vote creation, including templates for the most common actions: parameter changes, gauge addition and gauge removal
+- (Subject to further discussion and approval from Curve team): Create a marketplace contract and UI where users with no veCRV can post a proposal and a small bounty. Users with 2.5k veCRV can then post the proposal on their behalf and claim the bounty for gas reimbursement
 - Historical tracking of veCRV incentives on different marketplaces (votemarket, warden, votium, bribe.crv.finance)
 - Profile page to track users' voting history
 
@@ -50,7 +50,11 @@ We recently released a governance vote page on llama.airforce as a first steppin
 
 ## 4. Interface with Curve team, DAO, integrating protocols and users
 
-- Work with contributors contracted to do punctual specific tasks. For instance to turn a research report into a continuously updated dashboard, reproduce dashboards from third-party platforms (Dune, Flipside...)
-- Work with the Curve core team and research team to provide them with the data stream they require.
+The Curve core team and other teams within the DAO regularly gather data and produce analytics to inform decision-making processes. In certain instances, third-party companies or community members may be contracted or volunteer to generate specific reports and research. However, a significant proportion of these outputs are disseminated on disparate self-hosted domains, forgotten in git repositories, and/or left unmaintained. To address this issue, we propose to expand our responsibilities to include working directly with external contributors on specific tasks. This will ensure that their output, if deemed significant enough, can be integrated into a continuously updated and maintained dashboards on our analytics platform. By adopting this approach, we will also ensure continuity in the analytics knowledge base for Curve, enabling us to provide guidance to protocols and users seeking Curve-related metrics. Additionally, we will be able to explain the calculation methodology, sources, and origins of the data used in these metrics. 
 
+- Making a web UI for users to run in-browser pool simulations using the research team's CurveSim package
+- Work with the Curve core team and research team to provide them with the data streams and metrics they need. For instance:
+    - Provide needed historical data for the research team's CurveSim package
+    - Create a simulator to estimate changes in volume and revenue at different fee levels to set more competitive pool fees.
+- Field analytics-related questions on Telegram and Discord
 
