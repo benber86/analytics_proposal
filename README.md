@@ -129,9 +129,9 @@ Infrastructure costs are estimated. Unused funds at the end of the grant period 
 ### Overtime, external personnel and operational costs
 
 These costs are budgeted to:
-i. Compensate external contributors recruited to help with specific tasks 
-ii. Compensate the developers if they need to work overtime to deliver a feature on time or satisfy a request by the DAO/core team on top of their usual tasks 
-iii. Cover unforeseen operational costs (subscription/report purchase, gas costs for contract deployments or test txs, etc.)
+1. Compensate external contributors recruited to help with specific tasks 
+2. Compensate the developers if they need to work overtime to deliver a feature or satisfy a request by the DAO/core team on top of their currently assigned task 
+3. Cover unforeseen operational costs (subscription/report purchase, gas costs for contract deployments or test txs, etc.)
 
 Unused funds at the end of the grant period will be returned to the DAO.
 
