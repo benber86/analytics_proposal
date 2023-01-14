@@ -40,7 +40,7 @@ Our current roadmap for improvements is as follows:
 
 - Making the MVP dashboard available for all mainnet Curve pools
 - Expanding historical data availability to the lifetime of each pool
-- Adding new charts to the current dashboard: 
+- Adding new charts and features to the current dashboard: 
     - Histogram of price ranges to assess historical peg and volatility of a pair
     - Comparison of LP token price performance vs holding strategy vs xy=k 0 fee AMM, with IL calculator
     - Market depth chart (amount required to move price by x%)
@@ -95,4 +95,44 @@ This part can only be speculative until the release of LLAMMA and its associated
 
 ## Roadmap
 
+Our most immediate goal is the delivery of the pool dashboard for Ethereum mainnet based on the current MVP. We will then work on delivering the gauge weight pages and allowing veCRV lockers to vote from the UI. Once these main milestones are achieved we want to take some time to reorganize and consolidate the codebase and our infrastructure. This will likely include a significant amount of refactoring, migration of databases and cloud services, setting up monitoring tools as well as access management tasks. The remainder of the grant period will be dedicated to the expanding the dashboard's charts, the DAO page's features and working on supporting additional chains, starting with Polygon/Matic. Matic is supported by both Llama nodes and the Graph and while the chain wide variety of pools (3CRV-based tricrypto, CRV/tricrypto LP token pair, lending pools, forex pools) makes it a challenging first addition it will also help ensure that our code generalizes to toher L1s. 
+
+| Period           | Tasks                                                                        |
+|------------------|------------------------------------------------------------------------------|
+| Feb - Apr 2022   | Bringing the pool dashboard MVP to production for all Ethereum mainnet pools |
+| May 2022         | DAO gauge weight page & associated metrics                                   |
+| June - July 2022 | Codebase and infrastructure reorganization, migrations                       |
+| Aug - Sept 2022  | Allow for chain selection on UI and expand support to Polygon pools          |
+| Oct 2022         | IL calculator on pool dashboards                                             |
+| Nov - Dec 2022   | Proposal creation page + templates on DAO                                    |
+| Jan 2023         | Market depth chart, price range histograms                                   |
+
+
 ## Budget
+
+### Salaries
+
+- Total: $160,000
+    - Alunara: Part-time (20h/w) - $40,000
+    - Benny: Part-time (20h/w) - $40,000
+    - Philipp: Full-time (40h/w) - $80,000
+
+### Infrastructure
+
+Infrastructure costs are estimated. Unused funds at the end of the grant period will be returned to the DAO.
+
+- Total: $10,000
+    - Domain names & ENS: $100
+    - Cloud services (Hosting, static public IPs, CDN, load balancer): $4200 ($350 * 12)
+    - Archival node access for Ethereum mainnet & Polygon: ???
+
+### Overtime, external personnel and operational costs
+
+These costs are budgeted to:
+a. Compensate external contributors recruited to help with specific tasks 
+b. Compensate the developers if they need to work overtime to deliver a feature on time or satisfy a request by the DAO/core team on top of their usual tasks 
+c. Cover unforeseen operational costs (subscription/report purchase, gas costs for contract deployments or test txs, etc.)
+
+Unused funds at the end of the grant period will be returned to the DAO.
+
+- Total: $30,000
