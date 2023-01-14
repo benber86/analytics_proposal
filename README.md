@@ -1,5 +1,24 @@
 # Proposal to fund an analytics team for the Curve ecosystem
 
+## Index
+
+- [Overview](#overview)
+  - [Sentence summary](#sentence-summary)
+  - [Summary](#summary)
+- [Proposers](#proposers)
+  - [Team overview](#team-overview)
+  - [Team roles and responsibilities](#team-roles-and-responsibilities)
+- [Vision and specifications](#vision-and-specifications)
+  1. [Dedicated analytics platform](#1-dedicated-analytics-platform)
+  2. [Alternative DAO front-end](#2-alternative-dao-front-end)
+  3. [Interface with Curve team, DAO, integrating protocols and users](#3-interface-with-curve-team-dao-integrating-protocols-and-users)
+  4. [Open code-base](#4-open-code-base)
+  5. [LLAMMA/crvUSD dashboard](#5-llammacrvusd-dashboard)
+- [Roadmap](#roadmap)
+- [Budget](#budget)
+  - [Salaries](#salaries)
+  - [Infrastructure](#infrastructure)
+  - [Overtime, external personnel and operational costs](#overtime-external-personnel-and-operational-costs)
 
 ## Overview
 
