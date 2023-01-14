@@ -1,11 +1,5 @@
-# analytics_roadmap
+# Proposal to fund an analytics team for the Curve ecosystem
 
-
-- Creation of a comprehensive Curve analytics platform with real time dashboards for all pools across multiple chains
-- Design and implement an alternative, data-rich DAO front-end for improved decision-making by voters.
-- Open-source the codebase to encourage community participation and external contributions
-- Interface with the Curve team, DAO, integrating protocols and users
-- Creation of a LLAMMA/CrvUSD dashboard
 
 ## Overview
 
@@ -13,9 +7,13 @@
 
 We propose to develop a dedicated, real-time analytics platform for Curve that provides a one-stop-shop for both high-level and detailed metrics on Curve's pools, DAO and future lending activities.
 
-### Paragraph summary
+### Summary
 
 We propose to develop a dedicated, real-time analytics platform that provides both high-level and detailed metrics for the Curve ecosystem. This platform will increase discoverability by serving as a comprehensive source for all relevant information and data on Curve's pools. Additionally, we propose to build an alternative, user-friendly DAO front-end that includes pool health metrics. Our team will collaborate closely with the Curve core team and other teams within the DAO. We aim to create an open-source codebase that is easy for external developers to integrate with and contribute to.
+
+The proposal is for $200,000 in funding for a one-year period to pay for one full-time developer and two part-time developers, as well as infrastructure costs. At the end of the grant period, we will submit an activity report to the DAO detailing the features delivered over the period. If the progress is deemed satisfactory, we will then apply for a renewal of the grant for another year, revising the terms based on an updated roadmap and forecasted infrastructure costs. We see the platform as a critical component of the growth of the Curve ecosystem over time and therefore aim to anchor our collaboration with the DAO within a long-term perspective.
+
+We offer a below a detailed overview of our vision and the features we aim to deliver over a multi-year horizon. We also provide a roadmap of what we intend to accomplish during our first year of funding and a budget. Part of the budget is allocated for unforeseen infrastructure and personnel costs and will be refunded to the DAO if unspent at the end of the one-year period.
 
 ## Proposers
 
@@ -30,7 +28,7 @@ We propose to develop a dedicated, real-time analytics platform that provides bo
 - **Benny**: Back-end development, Subgraph development & maintenance, Management and liaison with other teams within the DAO and integrating protocols
 - **Philipp**: Back-end development, DevOps
 
-## Specifications and proposal details
+## Vision and specifications
 
 ### 1. Dedicated analytics platform
 
@@ -67,12 +65,8 @@ We recently released a governance vote page on llama.airforce as a first steppin
 - Historical tracking of veCRV incentives on different marketplaces (votemarket, warden, votium, bribe.crv.finance)
 - Profile page to track users' voting history
 
-### 3. Open code-base
 
-
-
-
-### 4. Interface with Curve team, DAO, integrating protocols and users
+### 3. Interface with Curve team, DAO, integrating protocols and users
 
 The Curve core team and other teams within the DAO regularly gather data and produce analytics to inform decision-making processes. In certain instances, third-party companies or community members may be contracted or volunteer to generate specific reports and research. However, a significant proportion of these outputs are disseminated on disparate self-hosted domains or third-praty platforms (Dune, Flipside...), forgotten in git repositories, and/or left unmaintained. To address this issue, we propose to expand our responsibilities to include working directly with external contributors to ensure that their output, if deemed significant enough, can be integrated into a continuously updated and maintained dashboards on our analytics platform. By adopting this approach, we will also ensure continuity in the analytics knowledge base for Curve, enabling us to provide guidance to protocols and users seeking Curve-related metrics. Additionally, we will be able to explain the calculation methodology and origins of the data used in these metrics. 
 
@@ -80,7 +74,15 @@ The Curve core team and other teams within the DAO regularly gather data and pro
 - Work with the Curve core team and research team to provide them with the data streams and metrics they need. For instance:
     - Provide needed historical data for the research team's CurveSim package
     - Create a simulator to estimate changes in volume and revenue at different fee levels to set more competitive pool fees.
+- Ensure high availability and proper documentation for all our public API endpoint
+- Maintain a decentralized data source for generic Curve pools/DAO metrics on the Graph
 - Field analytics-related questions on Telegram and Discord
+
+
+### 4. Open code-base
+
+
+
 
 ### 5. LLAMMA/crvUSD dashboard
 
