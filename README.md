@@ -82,6 +82,11 @@ The Curve core team and other teams within the DAO regularly gather data and pro
 ### 4. Open code-base
 
 
+In an effort to promote open collaboration and facilitate contributions we will work to consolidate the existing codebase which is currently fragmented accross multiple git organizations and repositories, establish guidelines for contributors and improve documentation to make it easier for people to reuse our code. 
+
+- Ensure that all repositories within the codebase maintain a minimum level of documentation
+- Create a git organization and migrate the various existing repositories to it
+- Implement concise contribution guidelines and templates for issues/PR
 
 
 ### 5. LLAMMA/crvUSD dashboard
