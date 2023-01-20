@@ -30,7 +30,7 @@ We propose to develop a dedicated, real-time analytics platform for Curve that p
 
 We propose to develop a dedicated, real-time analytics platform that provides both high-level and detailed metrics for the Curve ecosystem. This platform will increase discoverability by serving as a comprehensive source for all relevant information and data on Curve's pools. Additionally, we propose to build an alternative, user-friendly DAO front-end that includes pool health metrics. Our team will collaborate closely with the Curve core team and other teams within the DAO. We aim to create an open-source codebase that is easy for external developers to integrate with and contribute to.
 
-The proposal is for $200,000 in funding for a one-year period to pay for one full-time developer and two part-time developers, as well as infrastructure costs. At the end of the grant period, we will submit an activity report to the DAO detailing the features delivered over the period. If the progress is deemed satisfactory, we will then apply for a renewal of the grant for another year, revising the terms based on an updated roadmap and forecasted infrastructure costs. We see the platform as a critical component of the growth of the Curve ecosystem over time and therefore aim to anchor our collaboration with the DAO within a long-term perspective.
+The proposal is for $200,000 + TBD in funding for a one-year period to pay for one full-time developer and two part-time developers, as well as infrastructure costs. At the end of the grant period, we will submit an activity report to the DAO detailing the features delivered over the period. If the progress is deemed satisfactory, we will then apply for a renewal of the grant for another year, revising the terms based on an updated roadmap and forecasted infrastructure costs. We see the platform as a critical component of the growth of the Curve ecosystem over time and therefore aim to anchor our collaboration with the DAO within a long-term perspective.
 
 We offer a below a detailed overview of our vision and the features we aim to deliver over a multi-year horizon. We also provide a roadmap of what we intend to accomplish during our first year of funding and a budget. Part of the budget is allocated for unforeseen infrastructure and personnel costs and will be refunded to the DAO if unspent at the end of the one-year period.
 
@@ -118,23 +118,20 @@ Our most immediate goal is the delivery of the pool dashboard for Ethereum mainn
 
 | Period           | Tasks                                                                        |
 |------------------|------------------------------------------------------------------------------|
-| Feb - Apr 2022   | Bringing the pool dashboard MVP to production for all Ethereum mainnet pools |
-| May 2022         | DAO gauge weight page & associated metrics                                   |
-| June - July 2022 | Codebase and infrastructure reorganization, migrations                       |
-| Aug - Sept 2022  | Allow for chain selection on UI and expand support to Polygon pools          |
-| Oct 2022         | IL calculator on pool dashboards                                             |
-| Nov - Dec 2022   | Proposal creation page + templates on DAO                                    |
-| Jan 2023         | Market depth chart, price range histograms                                   |
+| Q1 2022          | Bringing the pool dashboard MVP to production for all Ethereum mainnet pools |
+| Q2 2022          | Codebase and infrastructure reorganization, migrations                       |
+| Q3 2022          | DAO gauge weight page & associated metrics                                   |
+| Q4 2022          | Proposal creation page + templates on DAO                                    |
 
 
 ## Budget
 
 ### Salaries
 
-- Total: $160,000
-    - Alunara: Part-time (20h/w) - $40,000
-    - Benny: Part-time (20h/w) - $40,000
-    - Philipp: Full-time (40h/w) - $80,000
+- Total: $100,000 + TBD (Rollover from LAF Grant)
+    - Alunara: TBD
+    - Benny: TBD
+    - Philipp: Full-time (40h/w) - $100,000
 
 ### Infrastructure
 
@@ -148,7 +145,7 @@ Infrastructure costs are estimated. Unused funds at the end of the grant period 
 ### Overtime, external personnel and operational costs
 
 These costs are budgeted to:
-1. Compensate external contributors recruited to help with specific tasks 
+1. Compensate external contributors recruited to help with specific tasks (design, analysis, etc.)
 2. Compensate the developers if they need to work overtime to deliver a feature or satisfy a request by the DAO/core team on top of their currently assigned task 
 3. Cover unforeseen operational costs (subscription/report purchase, gas costs for contract deployments or test txs, etc.)
 
