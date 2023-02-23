@@ -24,13 +24,25 @@
 
 ### Sentence summary
 
-We propose to develop a dedicated, real-time analytics platform for Curve that provides a one-stop-shop for both high-level and detailed metrics on Curve's pools, DAO and future lending activities.
+We apply for a **$120,000 grant to create a dedicated analytics platform for Curve** that will provide real-time metrics for all of Curve's pools, DAO and future lending activities.
 
 ### Summary
 
-We propose to develop a dedicated, real-time analytics platform that provides both high-level and detailed metrics for the Curve ecosystem. This platform will increase discoverability by serving as a comprehensive source for all relevant information and data on Curve's pools. Additionally, we propose to build an alternative, user-friendly DAO front-end that includes pool health metrics. Our team will collaborate closely with the Curve core team and other teams within the DAO. We aim to create an open-source codebase that is easy for external developers to integrate with and contribute to.
+We propose to develop a dedicated, **real-time analytics platform** that provides both high-level and detailed metrics for the Curve ecosystem, including but not limited to:
+- Real-time pool metrics (bonding curve, historical volume, balances, and prices)
+- MEV monitoring
+- Pool revenue
+- Market depth 
 
-The proposal is for $200,000 + TBD in funding for a one-year period to pay for one full-time developer and two part-time developers, as well as infrastructure costs. At the end of the grant period, we will submit an activity report to the DAO detailing the features delivered over the period. If the progress is deemed satisfactory, we will then apply for a renewal of the grant for another year, revising the terms based on an updated roadmap and forecasted infrastructure costs. We see the platform as a critical component of the growth of the Curve ecosystem over time and therefore aim to anchor our collaboration with the DAO within a long-term perspective.
+An MVP of the future proposed platform is available at: https://next.llama.airforce/#/monitor
+
+Additionally, we propose to build an **alternative, user-friendly DAO front-end** that includes statistics about veCRV, bribes and pool health metrics to better inform voters. The platform will build on the existing Curve DAO page on the <a href="https://llama.airforce/#/curve/dao/proposals">LLama Airforce website</a>.
+
+The proposal is for **$120,000 in funding for a one-year period to pay for one full-time developer and infrastructure costs**:
+- $100,000 will go to pay a full-time developer salary for Philipp. 
+- $20,000 will be spent on infrastructure costs with any unused funds returned to the DAO at the end of the grant period. 
+
+The developer will work with Llama Airforce team - which is already receiving funding. At the end of the grant period, we will submit an activity report to the DAO detailing the features delivered over the period. If the progress is deemed satisfactory, we will then apply for a renewal of the grant for another year, revising the terms based on an updated roadmap and forecasted infrastructure costs. We see the platform as a critical component of the growth of the Curve ecosystem over time and therefore aim to anchor our collaboration with the DAO within a long-term perspective. Our team will collaborate closely with the Curve core team and other teams within the DAO. We aim to create an open-source codebase that is easy for external developers to integrate with and contribute to.
 
 We offer a below a detailed overview of our vision and the features we aim to deliver over a multi-year horizon. We also provide a roadmap of what we intend to accomplish during our first year of funding and a budget. Part of the budget is allocated for unforeseen infrastructure and personnel costs and will be refunded to the DAO if unspent at the end of the one-year period.
 
@@ -38,8 +50,9 @@ We offer a below a detailed overview of our vision and the features we aim to de
 
 ### Team overview
 
+- Philipp spent the last 2 years working full time as a backend dev in a crypto hedge fund building dashboards, portfolio tracking tools and trading bots. Philipp contributed extensively to the new dashboard MVP. Philipp will receive $100,000 .
 - Alunara and Benny have been offering Curve related analytics on llama.airforce and have actively participated in various Curve DAO activities since 2021. 
-- Philipp spent the last 2 years working full time as a backend dev in a crypto hedge fund building dashboards, portfolio tracking tools and trading bots. Philipp contributed extensively to the new dashboard MVP.
+
 
 ### Team roles and responsibilities
 
