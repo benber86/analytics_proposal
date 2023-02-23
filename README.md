@@ -8,17 +8,16 @@
 - [Proposers](#proposers)
   - [Team overview](#team-overview)
   - [Team roles and responsibilities](#team-roles-and-responsibilities)
-- [Vision and specifications](#vision-and-specifications)
+- [Long term vision and specifications](#long-term-vision-and-specifications)
   1. [Dedicated analytics platform](#1-dedicated-analytics-platform)
   2. [Alternative DAO front-end](#2-alternative-dao-front-end)
   3. [Interface with Curve team, DAO, integrating protocols and users](#3-interface-with-curve-team-dao-integrating-protocols-and-users)
   4. [Open code-base](#4-open-code-base)
   5. [LLAMMA/crvUSD dashboard](#5-llammacrvusd-dashboard)
-- [Roadmap](#roadmap)
+- [One year roadmap](#one-year-roadmap)
 - [Budget](#budget)
   - [Salaries](#salaries)
-  - [Infrastructure](#infrastructure)
-  - [Overtime, external personnel and operational costs](#overtime-external-personnel-and-operational-costs)
+  - [Design, infrastructure and operational costs](#design-infrastructure-and-operational-costs)
 
 ## Overview
 
@@ -28,21 +27,21 @@ We apply for a **$120,000 grant to create a dedicated analytics platform for Cur
 
 ### Summary
 
-We propose to develop a dedicated, **real-time analytics platform** that provides both high-level and detailed metrics for the Curve ecosystem, including but not limited to:
-- Real-time pool metrics (bonding curve, historical volume, balances, and prices)
+We propose to develop a dedicated, **real-time analytics platform** that provides both high-level and detailed metrics for Curve's pools, including but not limited to:
+- High-level pool metrics (bonding curve, historical volume, balances, and prices)
 - MEV monitoring
 - Pool revenue
 - Market depth 
 
 An MVP of the future proposed platform is available at: https://next.llama.airforce/#/monitor
 
-Additionally, we propose to build an **alternative, user-friendly DAO front-end** that includes statistics about veCRV, bribes and pool health metrics to better inform voters. The platform will build on the existing Curve DAO page on the <a href="https://llama.airforce/#/curve/dao/proposals">LLama Airforce website</a>.
+Additionally, we propose to build an **alternative, fast & user-friendly DAO front-end** that includes statistics about veCRV, bribes and pool health metrics to better inform voters. The platform will build on the existing Curve DAO page on the <a href="https://llama.airforce/#/curve/dao/proposals">LLama Airforce website</a>.
 
-The proposal is for **$120,000 in funding for a one-year period to pay for one full-time developer and infrastructure costs**:
+The proposal is for **$120,000 in funding for a one-year period to pay for one full-time developer as well as design and infrastructure costs**:
 - $100,000 will go to pay a full-time developer salary for Philipp. 
-- $20,000 will be spent on infrastructure costs with any unused funds returned to the DAO at the end of the grant period. 
+- $20,000 will be spent on design and infrastructure costs with any unused funds returned to the DAO at the end of the grant period. 
 
-The developer will work with Llama Airforce team - which is already receiving funding. At the end of the grant period, we will submit an activity report to the DAO detailing the features delivered over the period. If the progress is deemed satisfactory, we will then apply for a renewal of the grant for another year, revising the terms based on an updated roadmap and forecasted infrastructure costs. We see the platform as a critical component of the growth of the Curve ecosystem over time and therefore aim to anchor our collaboration with the DAO within a long-term perspective. Our team will collaborate closely with the Curve core team and other teams within the DAO. We aim to create an open-source codebase that is easy for external developers to integrate with and contribute to.
+The developer will work with the Llama Airforce team - which is already receiving funding. At the end of the grant period, we will submit an activity report to the DAO detailing the features delivered over the period. If the progress is deemed satisfactory, we will then apply for a renewal of the grant for another year, revising the terms based on an updated roadmap and forecasted infrastructure costs. We see the platform as a critical component of the growth of the Curve ecosystem over time and therefore aim to anchor our collaboration with the DAO within a long-term perspective. Our team will collaborate closely with the Curve core team and other teams within the DAO. We aim to create an open-source codebase that is easy for external developers to integrate with and contribute to.
 
 We offer a below a detailed overview of our vision and the features we aim to deliver over a multi-year horizon. We also provide a roadmap of what we intend to accomplish during our first year of funding and a budget. Part of the budget is allocated for unforeseen infrastructure and personnel costs and will be refunded to the DAO if unspent at the end of the one-year period.
 
@@ -60,13 +59,14 @@ We offer a below a detailed overview of our vision and the features we aim to de
 - **Benny**: Back-end development, Subgraph development & maintenance, Management and liaison with other teams within the DAO and integrating protocols
 - **Philipp**: Back-end development, DevOps
 
-## Vision and specifications
+
+## Long term vision and specifications
 
 ### 1. Dedicated analytics platform
 
-Unlike other AMMs like <a href="https://info.uniswap.org/">Uniswap</a> or <a href="https://dune.com/balancerlabs">Balancer</a>, Curve does not have a dedicated analytics page. DeFi-wide analytics platforms like <a href="https://defillama.com/protocol/curve">Defi Llama</a> and community sites focused on the Curve ecosystem like <a href="https://llama.airforce/">Llama Airforce</a> do provide valuable data about Curve, but this situation nonetheless has severe limitations. Namely, the analytics focus on high level metrics (TVL, Volume) but lack the level of depth required for the proper management of the pools (parameter setting, protocol design decisions for future pools). The spread of information accross multiple websites, few of which are focused solely on Curve, also hinders discoverability. To solve these problems we offer to build a dedicated platform for Curve analytics at curvemonitor.com,that provides both high level and more detailed metrics. It will offer a one-stop-shop for all information and data related to Curve pools, increasing discoverability.
+Unlike other AMMs like <a href="https://info.uniswap.org/">Uniswap</a> or <a href="https://dune.com/balancerlabs">Balancer</a>, Curve does not have a dedicated analytics page. DeFi-wide analytics platforms like <a href="https://defillama.com/protocol/curve">Defi Llama</a> and community sites focused on the Curve ecosystem like <a href="https://llama.airforce/">Llama Airforce</a> do provide valuable data about Curve, but this situation nonetheless has severe limitations. Namely, the analytics focus on high level metrics (TVL, Volume) but often lack the level of depth required for the proper management of the pools (parameter setting, protocol design decisions for future pools). The spread of information accross multiple websites, few of which are focused solely on Curve, also hinders discoverability. To solve these problems we offer to build a dedicated platform for Curve analytics at curvemonitor.com, that provides both high level and more detailed metrics. It will offer a one-stop-shop for all information and data related to Curve pools.
 
-We have developed an MVP for what a future dashboard would look like for a standard Curve pool. This real-time dashboard allows allows users to follow trading activity, including miner extractable value (MEV) activity, monitor the historical performance of the pool by displaying assets balances, price fluctuations, and bonding curves.  We are committed to working closely with the Curve core team and the research and risk team to continue improving and enhancing these dashboards. 
+We have developed an MVP for what a future dashboard would look like for a standard Curve pool. This **real-time dashboard allows allows users to follow trading activity, including miner extractable value (MEV) activity, monitor the historical performance of the pool by displaying assets balances, price fluctuations, and bonding curves**. The real time dashboard has already proved its usefulness when it **helped identify the transaction that eventually led to the recovery of $152 millions** from the Wormhole hacker (Link once news is released). We are committed to working closely with the Curve core team and the research and risk team to continue improving and enhancing these dashboards. 
 
 Our current roadmap for improvements is as follows:
 
@@ -79,13 +79,14 @@ Our current roadmap for improvements is as follows:
     - Historical pool revenue
     - Overlay indicator of pool parameter changes on historical charts to gauge their effect
 - Extending support to pools on all chains where Curve is deployed
+- Expanding MEV tracking to arbitrage trades
 - Optimizing the user interface for a better and more user-friendly experience
 - Offering alerts and data export features
 
 
 ### 2. Alternative DAO front-end
 
-The new Curve website currently lacks a dedicated DAO page and the classic website's DAO page is hampered by extremely slow loading times, confusing navigation and a lack of essential features, such as the option to post new proposals or the decoding of calldata for governance proposals. To increase voter engagement and the dynamism of the DAO's governance, we offer to build an alternative DAO front end that would be faster and more user-friendly than the current one. We see this task as synergetic with the development of pool dashboards, as the DAO front-end should offer appropriate pool health metrics to help users make more informed decisions and pool parameter changes are subject to the DAO's approval. We also aim to integrate voting options on the UI for veCRV derivatives such as vlCVX to offer all voters in the ecosystem a unified and intuitive experience.
+The new Curve website currently lacks a dedicated DAO page and the classic website's DAO page is hampered by extremely slow loading times, confusing navigation and a lack of essential features, such as the option to post new proposals or the decoding of calldata for governance proposals. To increase voter engagement and the dynamism of the DAO's governance, we offer to build an alternative DAO front end that would be faster and more user-friendly than the current one. We see this task as synergetic with the development of pool dashboards, as the **DAO front-end should offer appropriate pool health metrics to help users make more informed decisions** and pool parameter changes are subject to the DAO's approval. We also aim to **integrate voting options on the UI for veCRV derivatives** such as vlCVX to offer all voters in the ecosystem a unified and intuitive experience.
 
 We recently released a governance vote page on llama.airforce as a first stepping stone to this project. The list of future planned developments is as follows:
 
@@ -100,7 +101,7 @@ We recently released a governance vote page on llama.airforce as a first steppin
 
 ### 3. Interface with Curve team, DAO, integrating protocols and users
 
-The Curve core team and other teams within the DAO regularly gather data and produce analytics to inform decision-making processes. In certain instances, third-party companies or community members may be contracted or volunteer to generate specific reports and research. However, a significant proportion of these outputs are disseminated on disparate self-hosted domains or third-praty platforms (Dune, Flipside...), forgotten in git repositories, and/or left unmaintained. To address this issue, we propose to expand our responsibilities to include working directly with external contributors to ensure that their output, if deemed significant enough, can be integrated into a continuously updated and maintained dashboards on our analytics platform. By adopting this approach, we will also ensure continuity in the analytics knowledge base for Curve, enabling us to provide guidance to protocols and users seeking Curve-related metrics. Additionally, we will be able to explain the calculation methodology and origins of the data used in these metrics. 
+The Curve core team and other teams within the DAO regularly gather data and produce analytics to inform decision-making processes. In certain instances, third-party companies or community members may be contracted or volunteer to generate specific reports and research. However, a significant proportion of these outputs are disseminated on disparate self-hosted domains or third-praty platforms (Dune, Flipside...), forgotten in git repositories, and/or left unmaintained. To address this issue, we propose to expand our responsibilities to include working directly with external contributors to ensure that their output, if deemed significant enough, can be integrated into a **continuously updated and maintained dashboards on our analytics platform**. By adopting this approach, we will also **ensure continuity in the analytics knowledge base for Curve**, enabling us to provide guidance to protocols and users seeking Curve-related metrics. Additionally, we will be able to explain the calculation methodology and origins of the data used in these metrics. 
 
 - Making a web UI for users to run in-browser pool simulations using the research team's CurveSim package
 - Work with the Curve core team and research team to provide them with the data streams and metrics they need. For instance:
@@ -114,7 +115,7 @@ The Curve core team and other teams within the DAO regularly gather data and pro
 ### 4. Open code-base
 
 
-In an effort to promote open collaboration and facilitate contributions we will work to consolidate the existing codebase which is currently fragmented accross multiple git organizations and repositories, establish guidelines for contributors and improve documentation to make it easier for people to reuse our code. 
+In an effort to **promote open collaboration and facilitate contributions** we will work to consolidate the existing codebase which is currently fragmented accross multiple git organizations and repositories, establish guidelines for contributors and improve documentation to make it easier for people to reuse our code. 
 
 - Ensure that all repositories within the codebase maintain a minimum level of documentation
 - Create a git organization and migrate the various existing repositories to it
@@ -125,43 +126,39 @@ In an effort to promote open collaboration and facilitate contributions we will 
 
 This part can only be speculative until the release of LLAMMA and its associated UI, however we can anticipate that this new feature will require detailed metrics to inform both core developers and users' decisions. 
 
-## Roadmap
+
+## One year roadmap
 
 Our most immediate goal is the delivery of the pool dashboard for Ethereum mainnet based on the current MVP. We will then work on delivering the gauge weight pages and allowing veCRV lockers to vote from the UI. Once these main milestones are achieved we want to take some time to reorganize and consolidate the codebase and our infrastructure. This will likely include a significant amount of refactoring, migration of databases and cloud services, setting up monitoring tools as well as access management tasks. The remainder of the grant period will be dedicated to the expanding the dashboard's charts, the DAO page's features and working on supporting additional chains, starting with Polygon/Matic. Matic is supported by both Llama nodes and the Graph and while the chain wide variety of pools (3CRV-based tricrypto, CRV/tricrypto LP token pair, lending pools, forex pools) makes it a challenging first addition it will also help ensure that our code generalizes to toher L1s. 
 
 | Period           | Tasks                                                                        |
 |------------------|------------------------------------------------------------------------------|
-| Q1 2022          | Bringing the pool dashboard MVP to production for all Ethereum mainnet pools |
-| Q2 2022          | Codebase and infrastructure reorganization, migrations                       |
-| Q3 2022          | DAO gauge weight page & associated metrics                                   |
-| Q4 2022          | Proposal creation page + templates on DAO                                    |
+| Q2 2022          | Bringing the pool dashboard MVP to production for all Ethereum mainnet pools |
+| Q3 2022          | Codebase and infrastructure reorganization, migrations                       |
+| Q4 2022          | DAO gauge weight page & DAO dashboards                                       |
+| Q1 2023          | Proposal creation page + templates on DAO, additional pool charts            |
 
 
 ## Budget
 
 ### Salaries
 
-- Total: $100,000 + TBD (Rollover from LAF Grant)
-    - Alunara: TBD
-    - Benny: TBD
+- Total: $100,000
     - Philipp: Full-time (40h/w) - $100,000
+    - Alunara: Current Llama Airforce grant
+    - Benny: Current Llama Airforce grant
 
-### Infrastructure
+### Design, infrastructure and operational costs
 
-Infrastructure costs are estimated. Unused funds at the end of the grant period will be returned to the DAO.
+Infrastructure and design costs are estimated. Unused funds at the end of the grant period will be returned to the DAO.
 
-- Total: $10,000
+- Total: $20,000
+    - Designer contractor for pool dashboard and website: $8,000 (2 weeks @ $100/h)
     - Domain names & ENS: $100
-    - Cloud services (Hosting, static public IPs, CDN, load balancer): $4200 ($350 * 12)
-    - Archival node access for Ethereum mainnet & Polygon: ???
-
-### Overtime, external personnel and operational costs
-
-These costs are budgeted to:
-1. Compensate external contributors recruited to help with specific tasks (design, analysis, etc.)
-2. Compensate the developers if they need to work overtime to deliver a feature or satisfy a request by the DAO/core team on top of their currently assigned task 
-3. Cover unforeseen operational costs (subscription/report purchase, gas costs for contract deployments or test txs, etc.)
+    - Cloud services (Hosting, static public IPs, CDN, load balancer): $6000 ($500 * 12)
+    - Archival node access for Ethereum mainnet & Polygon: $600 ($49/m on Alchemy)
+    - Tenderly subscription: $800 ($67/m)
+    - Operational costs (gas costs for contract deployments & test txs, 2500 veCRV to lock for proposal creation): $4500
 
 Unused funds at the end of the grant period will be returned to the DAO.
 
-- Total: $30,000
