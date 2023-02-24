@@ -23,7 +23,7 @@
 
 ### Sentence summary
 
-We apply for a **$120,000 grant to create a dedicated analytics platform for Curve** that will provide real-time metrics for all of Curve's pools, DAO, and future lending activities.
+We apply for a **$128,000 grant to create a dedicated analytics platform for Curve** that will provide real-time metrics for all of Curve's pools, DAO, and future lending activities.
 
 ### Summary
 
@@ -37,7 +37,7 @@ An MVP of the future proposed platform is available at: https://next.llama.airfo
 
 Additionally, we propose to build an **alternative, fast & user-friendly DAO front-end** that includes statistics about veCRV, bribes, and pool health metrics to better inform voters. The platform will build on the existing Curve DAO page on the <a href="https://llama.airforce/#/curve/dao/proposals">LLama Airforce website</a>.
 
-The proposal is for **$120,000 in funding for one year to pay for one full-time developer as well as design and infrastructure costs**:
+The proposal is for **$128,000 in funding for one year to pay for one full-time developer as well as design and infrastructure costs**:
 - $100,000 will go to pay a full-time developer salary for Philipp. 
 - $20,000 will be spent on design and infrastructure costs with any unused funds returned to the DAO at the end of the grant period. 
 
@@ -152,13 +152,13 @@ Our most immediate goal is the delivery of the pool dashboard for Ethereum mainn
 
 Infrastructure and design costs are estimated. Unused funds at the end of the grant period will be returned to the DAO.
 
-- Total: $20,000
-    - Designer contractor for pool dashboard and website: $8,000 (2 weeks @ $100/h)
+- Total: $28,000
+    - Designer contractor for pool dashboard and website: $16,000 (4 weeks @ $100/h)
     - Domain names & ENS: $100
     - Cloud services (Hosting, static public IPs, CDN, load balancer): $6000 ($500 * 12)
     - Archival node access for Ethereum mainnet & Polygon: $600 ($49/m on Alchemy)
     - Tenderly subscription: $800 ($67/m)
-    - Operational costs (gas costs for contract deployments & test transactions, 2500 veCRV to lock for proposal creation): $4500
+    - Operational costs (gas costs for contract deployments & transactions, 2500 veCRV for proposal creation): $4500
 
 Unused funds at the end of the grant period will be returned to the DAO.
 
