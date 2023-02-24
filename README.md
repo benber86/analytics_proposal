@@ -1,4 +1,4 @@
-# Proposal to fund an analytics team for the Curve ecosystem
+# Proposal to fund an analytics platform for Curve
 
 ## Index
 
