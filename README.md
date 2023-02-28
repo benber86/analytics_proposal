@@ -28,12 +28,12 @@ We apply for a **$128,000 grant to create a dedicated analytics platform for Cur
 ### Summary
 
 We propose to develop a dedicated, **real-time analytics platform** that provides both high-level and detailed metrics for Curve's pools, including but not limited to:
-- High-level pool metrics (bonding curve, historical volume, balances, and prices)
+- High-level pool metrics (bonding curves, historical volume, balances, prices)
 - MEV monitoring
 - Pool revenue
 - Market depth 
 
-An MVP of the future proposed platform is available at: https://next.llama.airforce/#/monitor
+An MVP of the future proposed platform is available for the sUSD pool at: <a href="https://www.curvemonitor.com">curvemonitor.com</a> 
 
 Additionally, we propose to build an **alternative, fast & user-friendly DAO front-end** that includes statistics about veCRV, bribes, and pool health metrics to better inform voters. The platform will build on the existing Curve DAO page on the <a href="https://llama.airforce/#/curve/dao/proposals">LLama Airforce website</a>.
 
