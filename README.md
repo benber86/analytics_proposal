@@ -35,7 +35,10 @@ We propose to develop a dedicated, **real-time analytics platform** that provide
 
 An MVP of the future proposed platform is available for the sUSD pool at: <a href="https://www.curvemonitor.com">curvemonitor.com</a> 
 
-Additionally, we propose to build an **alternative, fast & user-friendly DAO front-end** that includes statistics about veCRV, bribes, and pool health metrics to better inform voters. The platform will build on the existing Curve DAO page on the <a href="https://llama.airforce/#/curve/dao/proposals">LLama Airforce website</a>.
+<p align="center"><img src="https://user-images.githubusercontent.com/25791237/221824730-b7d9cd75-b105-4fc3-8ad5-b0ee1466a58a.png" height=308 width=238></img></p>
+
+
+Additionally, we propose to build an **alternative, fast & user-friendly DAO front-end** that includes statistics about veCRV, bribes, and pool health metrics to better inform voters. The platform will build on the existing Curve DAO page on the <a href="https://llama.airforce/#/curve/dao/proposals">LLama Airforce website</a> but will move to a separate domain.
 
 The proposal is for **$128,000 in funding for one year to pay for one full-time developer as well as design and infrastructure costs**:
 - $100,000 will go to pay a full-time developer salary for Philipp. 
