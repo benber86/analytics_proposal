@@ -59,7 +59,7 @@ We offer below a detailed overview of our vision and the features we aim to deli
 ### Team roles and responsibilities
 
 - **Alunara**: Front-end development, DevOps
-- **Benny**: Back-end development, Subgraph development & maintenance, Management and liaison with other teams within the DAO, and integrating protocols
+- **Benny**: Back-end development, subgraphs, management and liaison with other teams within the DAO & integrating protocols
 - **Philipp**: Back-end development, DevOps
 
 
